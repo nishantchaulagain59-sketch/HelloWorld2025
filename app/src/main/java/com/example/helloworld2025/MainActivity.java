@@ -40,4 +40,8 @@ public class MainActivity extends AppCompatActivity {
     public void changeTextClick(View view) {
         tvDemoLabel.setText("Hello World! Changed");
     }
+    //Main changes
+    //Main changes
+    //Main changes
+    //Main changes
 }
