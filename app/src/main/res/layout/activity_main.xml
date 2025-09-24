@@ -20,20 +20,29 @@
 
     <Button
         android:id="@+id/btnchangeTextClick"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_width="124dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="50dp"
         android:onClick="changeTextClick"
         android:text="@string/change_text"
-        app:layout_constraintTop_toBottomOf="@+id/tvDemoLabel"
-        tools:layout_editor_absoluteX="141dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnChangeColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDemoLabel" />
 
     <Button
         android:id="@+id/btnChangeColor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="638dp" />
+        android:layout_width="124dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/change_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnchangeTextClick" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
